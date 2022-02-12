@@ -6,7 +6,7 @@
 <h4>2-With img datas, I can start now my training process (train.py)</h4>
 <h4>3-Now I'm creating a file(data_classes.py) full of the classes of my images</h4>
 <h4>4-The last step is using detect.py and play!</h4>
-<h5> don't forget to press 1 to predict,but you can easily change the predictive button </h5> 
+<h5> don't forget to press 1 to predict,but you can easily change the prediction button </h5> 
 
 
 
