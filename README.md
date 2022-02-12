@@ -2,7 +2,7 @@
 AI-based assistant for Minecraft
 
 There are 4 steps to build
-1-I'm using collecting_data.png as a structure to take shots with collect.py and save those imgs in a img_datas folder
+<h2>1-I'm using collecting_data.png as a structure to take shots with collect.py and save those imgs in a img_datas folder</h2>
 2-With img datas, I can start now my training process (train.py)
 3-Now I'm creating a folder full of the classes of my images
 4-The last step is using detect.py and play!
