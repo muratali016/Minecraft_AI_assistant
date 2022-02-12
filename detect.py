@@ -11,7 +11,7 @@ from mss import mss
 import cv2
 import uuid
 import tkinter as tk
-from window import Window
+from data_classes import Window
 from threading import Timer
 
 mon = {
