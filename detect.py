@@ -27,7 +27,7 @@ height=50
 
 model=model_from_json(open("model.json","r").read())
 model.load_weights("model.h5")
-labels = ["1","2","3","4","5"]
+
 
 
 
