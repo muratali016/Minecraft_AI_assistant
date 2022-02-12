@@ -1,11 +1,11 @@
 # Minecraft_AI_assistant
-AI-based assistant for Minecraft
+<h3>AI-based assistant for Minecraft</h3>
 
-There are 4 steps to build
-<h2>1-I'm using collecting_data.png as a structure to take shots with collect.py and save those imgs in a img_datas folder</h2>
-2-With img datas, I can start now my training process (train.py)
-3-Now I'm creating a folder full of the classes of my images
-4-The last step is using detect.py and play!
+<h4>There are 4 steps to build</h4>
+<h4>1-I'm using collecting_data.png as a structure to take shots with collect.py and save those imgs in a img_datas folder</h4>
+<h4>2-With img datas, I can start now my training process (train.py)</h4>
+<h4>3-Now I'm creating a folder full of the classes of my images</h4>
+<h4>4-The last step is using detect.py and play!</h4>
 
 
 
