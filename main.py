@@ -1,15 +1,9 @@
-import keyword
 from keras.models import model_from_json
 import numpy as np
 from PIL import Image
 import keyboard
-import time
 from mss import mss
-import cv2
-import uuid
-import tkinter as tk
-from data_classes import Window
-from threading import Timer
+from img_collect_and_train.data_classes import Window
 
 mon = {
     "top": 214,
@@ -24,8 +18,6 @@ height=50
 
 model=model_from_json(open("model.json","r").read())
 model.load_weights("model.h5")
-
-
 
 
 while True:

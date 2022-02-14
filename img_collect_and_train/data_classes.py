@@ -1,7 +1,4 @@
-import time
 import tkinter as tk
-import keyboard
-import pyautogui
 
 class Window():
     def __init__(self):
@@ -15,10 +12,6 @@ class Window():
         self.label1 = tk.Label(text="Minecraft AI assistant by muratali016")
         self.label1.pack()
 
-               
-
-
-
     def show_5(self):
 
         now = "The jungle tree"
@@ -31,12 +24,6 @@ class Window():
 
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
-
-
-
-
-
-
 
     def show_4(self):
         now = "The acacia tree"
