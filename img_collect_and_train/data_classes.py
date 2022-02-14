@@ -24,6 +24,7 @@ class Window():
 
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print("jungle tree")
 
     def show_4(self):
         now = "The acacia tree"
@@ -35,6 +36,7 @@ class Window():
 
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print("acacica tree")
 
 
     def show_3(self):
@@ -47,6 +49,7 @@ class Window():
                             font=("Helvetica", 12))
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print("birch tree")
 
     def show_2(self):
 
@@ -58,6 +61,7 @@ class Window():
                             font=("Helvetica", 12))
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print( "dark tree")
 
     def show_1(self):
 
@@ -69,8 +73,9 @@ class Window():
                             font=("Helvetica", 12))
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print("villager")
 
-    def show_(self):
+    def show_0(self):
 
         now = "The Creeper"
         infos="A creeper is a common hostile mob that silently approaches\n players and explodes. Due to their distinctive appearance \nand high potential for killing unwary players \nas well as damaging the environment and players'\n constructions, creepers have become one of the\n icons of Minecraft, both among players and non-players."
@@ -80,6 +85,7 @@ class Window():
                             font=("Helvetica", 12))
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print(" creeper")
 
     def show_6(self):
 
@@ -91,6 +97,7 @@ class Window():
                             font=("Helvetica", 12))
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print(" lava")
 
     def show_7(self):
 
@@ -102,6 +109,7 @@ class Window():
                             font=("Helvetica", 12))
         self.root.after(3000, lambda: self.root.destroy())
         self.root.mainloop()
+        print(" water")
 
     def show_8(self):
 
@@ -116,3 +124,4 @@ class Window():
 
         self.root.after(5000, lambda: self.root.destroy())
         self.root.mainloop()
+        print(" village house")
